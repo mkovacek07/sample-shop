@@ -11,3 +11,10 @@ var deviceType = () => {
   }
   return "desktop";
 };
+
+var searchBtn = document.getElementById("search-btn");
+var search = document.getElementById("search");
+
+searchBtn.addEventListener("click", () => {
+  //search.classList.toggle("search-input");
+});
