@@ -12,13 +12,18 @@
 </head>
 
 <body>
-    <div class="title-section">
-        <span>Sample Shop</span>
-        <div class="right-title-section">
-            <div class="search-container">
-                <input type="text" id="search" placeholder="">
+    <div class="navbar">
+        <a class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <span class="shop-title">SAMPLE SHOP</span>
+        <div class="navbar-right">
+            <form class="search-container">
                 <img src="images/search.png" alt="search button" id="search-btn">
-            </div>
+                <input type="text" name="search" placeholder="Search..." id="search">
+            </form>
             <div class="shopping-bag">
                 <img src="images/shopping-bag.png" alt="shopping bag">
             </div>
@@ -27,26 +32,63 @@
                 <span>LOG IN</span>
             </div>
         </div>
+        <div class="escape-button">
+            <img src="images/times-solid.svg" alt="escape button">
+        </div>
+    </div>
+    <div class="navbar-bottom">
+        <form class="search-container-bottom">
+            <input type="text" name="search" placeholder="Search..." id="search-bottom">
+            <div id="search-btn-bottom">
+                <img src="images/search-13-16.png" alt="search button">
+            </div>
+        </form>
     </div>
     <div class="topnav">
-        <a class="active" href="#TheSlySponges">The Sly Sponges</a>
-        <a href="#MakeupBrushes">Makeup Brushes</a>
+        <a class="shop-all" style="display: none;" href="#ShopAll">SHOP ALL</a>
+        <a href="#TheSlySponges">The Sly Sponges</a>
+        <a class="active" href="#MakeupBrushes">Makeup Brushes</a>
         <a href="#TheToolBag">The Tool Bag</a>
         <a href="#TipLuggage">Tip Luggage</a>
         <a href="#TheEverNeed">The Ever Need</a>
         <a href="#GiftBoxes">Gift Boxes</a>
         <a href="#Videos">Videos</a>
+        <div class="social-media">
+            <img src="images/instagram.svg" alt="Instagram">
+            <img src="images/facebook.svg" alt="Facebook">
+            <img src="images/youtube.svg " alt="Youtube">
+        </div>
+        <div class="login-mobile">
+            <button class="login-btn">
+                <img src="images/profile-icon-png-910.png"></img>
+                <span>LOGIN</span>
+            </button>
+        </div>
+        <div class="account-mobile">
+            <p>Welcome back, John Smith</p><br>
+            <button class="account-btn">
+                <img src="images/profile-icon-png-910.png"></img>
+                <span>ACCOUNT</span>
+            </button>
+            <button class="logout-btn">
+                <span class="logout-text">LOGOUT</span>
+            </button>
+        </div>
     </div>
     <div class="main-container">
         <div class="content">
-            <div class="content-title">
-                <span>Hello World.</span>
+            <div class="content-left">
+                <div class="content-title">
+                    <span>Hello World.</span>
+                </div>
+                <p>This is just a mockup to fill a blank space - not necessarily<br> the design of the finished page
+                    layout.
+                </p>
+                <button class="btn-learn-more">LEARN MORE</button>
             </div>
-            <p>This is just a mockup to fill a blank space - not necessarily<br> the design of the finished page
-                layout.
-            </p>
-            <button class="btn-learn-more">LEARN MORE</button>
-            <img src="Images/Image.png" alt="Shopping bag">
+            <div class="content-right">
+                <img src="Images/Image.png" alt="Shopping bag">
+            </div>
         </div>
     </div>
     <div class="main-details">
